@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<h1> Formulaire sur mon site </h1>
+
+	<form id="form" action="mailto:salmeronclement@gmail.com?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
+
+	  <fieldset>
+		<legend>Coordonnées</legend>
+
+		<p class="nom" >
+			<label for="Nom">Nom</label> : <input type="text" name="Nom" id="Nom" autofocus required />
+
+		<br />
+			<label for="Prenom">Prénom</label> : <input type="text" name="Prenom" id="Prenom" required />
+
+	    <br />
+			<label for="email">E-mail</label> : <input type="email" name="email" id="email" required />
+		</p>
+	
+    	<legend>Commentaire></legend>
+           <p>
+
+		<br />
+		    <label for="avis"> Un avis sur mon site?</label><br />
+		    <textarea name="avis" id="avis"></textarea>
+		<br />
+		    <label for="idee"> Une idée pour l'améliorer?</label><br />
+		    <textarea name="idee" id="idee"></textarea>
+		<br />
+		    <label for="date">date</label> : <input type="date" name="date" id="date" />
+		    <label for="heure">heure</label> : <input type="time" name="heure" id="heure" />
+
+		</p>
+	</fieldset>
+
+   <input type="submit" value="Envoyer" />
+
+	</form>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

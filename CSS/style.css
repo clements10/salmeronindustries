@@ -1,0 +1,114 @@
+footer
+{
+	border: 2px black solid;
+	position: absolute;
+	bottom: -950px;
+	right: 450px;
+	display: inline-block;
+	font-size: 13px;
+	font-family: courier new;
+}
+.presentation
+{
+	text-decoration: underline;
+	font-size: 40px;
+}
+h2
+{
+	font-size:30 ;
+}
+header
+{
+	background-color: #578AFF;
+	
+}
+body
+{
+	margin: 0;
+	padding: 0;
+    font-family: arial;
+    background-color: #68ADBB;
+}
+
+section
+{
+	margin-left: 193px;
+}
+.fleche
+{
+	
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+textarea
+{
+	width: 350px;
+	height: 150px;
+}
+.salmeron_industries
+{
+	font-family: impact;
+	text-decoration: overline 3px;
+	color: navy;
+	font-size: 45px;
+}
+span
+{
+	font-family: impact;
+	text-decoration: overline 3px;
+	color: navy;
+	font-size: 45px;
+}
+.acceuil
+{
+	position: absolute;
+	right: 750px;
+	font-size: 25px;
+	top: 30px;
+}
+.projet_universitaire
+{
+	position: absolute;
+	right: 500px;
+	font-size: 25px;
+	top: 30px;
+}
+.sondage
+{
+	position: absolute;
+	right: 350px;
+	top: 30px;
+	font-size: 25px;
+}
+.paragraphe
+{
+	font-size: 20px;
+}
+.intro_page_projet_univ
+{
+	font-size: 25px;
+	border: 3px black solid;
+	display: inline-block;
+}
+.mes_liens
+{
+	font-size: 30px;
+	text-decoration: underline 2px;
+
+}
+.ma_description
+{
+	font-size: 20px;
+	border: 2px black solid;
+	display: inline-block;
+
+}
+.photo_perso
+{
+	border-radius: 40px;
+	position: absolute;
+	right: 500px;
+	top: 220px;
+}
+  
